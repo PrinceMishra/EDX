@@ -6,11 +6,35 @@
         <style>
             h1 {color:red;}
             body {background-color:aqua;}
-            table, tr,td {border:1px solid black;border-collapse:colapse;}
+            
+            table {border:1px solid black; }
+            table,th{border:1px solid black;}
+            table,td{padding: 20px; color: white; margin: 10px; background-color: chocolate; border-collapse: collapse;border: 1px solid black;}
+            #topNumbers{
+                display: flex;
+                background-color: DodgerBlue;
+            }
+           #topNumbers>div{
+                background-color: #f1f1f1;
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+           }
+           
+            @media screen {
+                
+            }
         </style>
     </head>
     <body>
         <h1>Welcome to my website</h1>
+       <div id="topNumbers">
+            <div >Drum-1</div>
+            <div >Drum-2</div>
+            <div >Drum-3</div>
+            <div >Drum-4</div>
+            <div >Drum-5</div>
+       </div>
         <table>
             <thead>
                 <th>Id</th>
